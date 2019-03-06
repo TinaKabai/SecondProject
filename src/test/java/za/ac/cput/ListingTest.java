@@ -12,7 +12,7 @@ public class ListingTest {
 
         Listing lists = new Listing();
 
-        List<String> names = Arrays.asList("Age", "First name", "Second name", "Last name");
+        List<String> names = Arrays.asList("Age ", "First name", "Second name", "Last name");
 
         Assert.assertEquals(names, lists.listing());
     }
