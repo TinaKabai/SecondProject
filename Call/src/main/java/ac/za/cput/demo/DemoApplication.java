@@ -14,5 +14,4 @@ public class DemoApplication {
     l.collect();
     s.collect();
     }
-
 }
